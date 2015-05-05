@@ -5,7 +5,8 @@ use Symfony\Component\HttpFoundation\Request;
 $env = getenv('SYMFONY_ENV') ?: 'prod';
 $debug = getenv('SYMFONY_DEBUG') === '1' && $env !== 'prod';
 
-$loader = require __DIR__ . '/../var/bootstrap.php.cache';
+$loader = require __DIR__ . '/../app/bootstrap.php.cache';
+
 if ($debug) {
     Debug::enable();
 }

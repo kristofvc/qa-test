@@ -18,3 +18,5 @@ parameters:
 
     # A secret key that's used to generate certain security-related tokens
     secret:            ThisTokenIsNotSoSecretChangeIt
+
+    sentry_dsn: http://92a0b812befa493391be9dc657553013:0a227cf516674859a07cbc7f6de78636@sentry.server/2
